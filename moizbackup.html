@@ -1,0 +1,84 @@
+                          <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '77442ee4-992d-434f-b86d-50504d4f9aa7', f: true }); done = true; } }; })();</script>  
+
+<!-- contact -->
+  
+<!-- START HERE -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+                           <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwUU3F3b90NjMCDmTPZP40OUJ3LT7KH-yR065vMJ7dIuxqYpuw/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset class="pure-group">
+      <label for="location">General Information:</label>
+      <input id="name" name="name" placeholder="Full Name" />
+    </fieldset>
+                        
+     <fieldset class="pure-group">
+      <label for="gender">Please Select Your Gender</label>
+      <select id="gender" name="gender" multiple size="3">
+        <option selected>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+                </select> </fieldset>
+
+    <fieldset class="pure-group">
+      <textarea id="message" name="message" rows="10"
+      placeholder="Tell us briefly why you are interested..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <input id="email" name="email" type="email"
+      required placeholder="Email"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+    
+      <!--list-->
+    <fieldset class="pure-group">
+      <label for="field">Field:</label>
+      <select id="field" name="field" multiple size="4">
+        <option selected>Computers and Technology</option>
+        <option>Liberal Arts</option>
+        <option>Engineering</option>
+        <option>Other: Enter Below</option>
+      </select>
+       <label for="extra"><em>If you selected other above, enter your field of choice here:</em></label>
+      <input id="extra" name="extra" placeholder="Field" />
+    </fieldset>
+                        
+  <!--                      
+   <fieldset class="pure-group">
+   <input type="file" name="filesToUpload" id="filesToUpload" multiple>
+</fieldset>
+                  -->
+                        
+   <center> <button class="btn btn-rounded btn-transparent-blue btn-large width-50" >
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+                        <br>
+                           <br>
+     </center>
+                       
+
+  </form>
+                   <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h6 class="area-title text-capitalize alt-font text-green text-center margin-20px-bottom font-weight-300 sm-width-250 xs-width-250">
+                            Thank you for contacting us. <br> We will get back to you shortly!</h6>
+                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="form-submission-handler.js"></script>
+      
+            </div>
+        </div>
+   </section>
+
+<!-- blog content end-->

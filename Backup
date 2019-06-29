@@ -1,0 +1,5 @@
+data-mode="popup"
+
+<div class="page_nav">
+                <span class="text-white">You are here:</span> <a href="index.html" class="text-white">Home</a> <span class="text-white"><i class="fa fa-angle-double-right"></i> LogIn</span>
+            </div>

@@ -1,0 +1,8 @@
+Jun 29 00:44:00 10.71.53.17 u94012758 Connection from 10.71.53.17 port 50316 on 74.208.58.220 port 22
+Jun 29 00:44:00 10.71.53.17 u94012758 Accepted password for u94012758 from 10.71.53.17 port 50316 ssh2
+Jun 29 00:44:00 10.71.53.17 u94012758 Starting session: subsystem 'sftp' for u94012758 from 10.71.53.17 port 50316
+Jun 29 00:44:00 10.71.53.17 u94012758 session opened for local user u94012758 from [10.71.53.17]
+Jun 29 00:46:24 10.71.53.17 u94012758 open "./index.html" flags READ mode 0666
+Jun 29 00:46:24 10.71.53.17 u94012758 open "./googlea49cf6f6f94d6518.html" flags READ mode 0666
+Jun 29 00:46:24 10.71.53.17 u94012758 close "./index.html" bytes read 42109 written 0
+Jun 29 00:46:24 10.71.53.17 u94012758 [10.71.53.17|get|0|42109|0|0|0|2e2f696e6465782e68746d6c|]

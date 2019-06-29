@@ -1,0 +1,383 @@
+
+/*-- Use For Custom Styling --*
+  /* Smartphone Portrait and Landscape */ 
+
+.label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    .m-show {
+        display: block !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+}
+
+
+
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+
+hr.style2 {
+  background-color: #f0f0f0;
+  width: 700px;
+  float: center;
+	border-top: 3px double #8c8b8b;
+}
+
+hr.style3 {
+	border-top: 1px dashed #8c8b8b;
+}
+
+hr.style4 {
+	border-top: 1px dotted #8c8b8b;
+}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+
+hr.style6 {
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+
+hr.style7 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+
+hr.style8 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+hr.style9 {
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+hr.style10 {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}
+
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+
+hr.style12 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+hr.style16 { 
+  border-top: 1px dashed #8c8b8b; 
+} 
+hr.style16:after { 
+  content: '\002702'; 
+  display: inline-block; 
+  position: relative; 
+  top: -12px; 
+  left: 40px; 
+  padding: 0 3px; 
+  background: #f0f0f0; 
+  color: #8c8b8b; 
+  font-size: 18px; 
+}
+
+
+hr.style17 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.style17:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+hr.resize{
+  max-heightheight:50%;
+  max-width:50%;
+}
+
+
+.inline-field input,
+.inline-field label {
+  display: inline-block;
+  margin-bottom: 0; /* I added this after I posted my reply */
+  vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
+}
+
+
+
+
+
+
+
+
+
+
+$white: rgba(254,255,250,1)
+$grey: rgba(220,231,235,1)
+$red: rgba(255,104,115,1)
+$black: rgba(48,69,92,0.8)
+$sans: 'Titillium Web', sans-serif
+  
+.transition
+  transition: all 0.25s ease-in-out
+
+.flipIn
+  animation: flipdown 0.5s ease both
+    
+.no-select
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.html
+  width: 100%
+  height: 100%
+  perspective: 900
+  overflow-y: scroll
+  background-color: $grey
+  font-family: $sans
+  color: $black
+  
+.body
+  min-height: 0
+  display: inline-block
+  position: relative
+  left: 50%
+  margin: 90px 0
+  transform: translate( -50% , 0 )
+  box-shadow: 0 10px 0 0 $red inset
+  background-color: $white
+  max-width: 450px
+  padding: 30px
+  
+  @media ( max-width:550px )
+    box-sizing: border-box
+    transform: translate( 0 , 0 )
+    max-width: 100%
+    min-height: 100%
+    margin: 0
+    left: 0
+
+h1 , h2
+  color: $red
+
+h1
+  text-transform: uppercase
+  font-size: 36px
+  line-height: 42px
+  letter-spacing: 3px
+  font-weight: 100
+  @extend .flipIn
+  
+h2
+  font-size: 26px
+  line-height: 34px
+  font-weight: 300
+  letter-spacing: 1px
+  display: block
+  background-color: $white
+  margin: 0
+  cursor: pointer
+  @extend .no-select
+
+p
+  color: $black
+  font-size: 17px
+  line-height: 26px
+  letter-spacing: 1px
+  position: relative
+  overflow: hidden
+  max-height: 800px
+  @extend .transition
+  opacity: 1
+  transform: translate( 0 , 0 )  
+  margin-top: 14px
+  z-index: 2
+  
+ul
+  list-style: none
+  perspective: 900
+  padding: 0
+  margin: 0
+  
+  li
+    position: relative
+    padding: 0
+    margin: 0
+    padding-bottom: 4px
+    padding-top: 18px
+    border-top: 1px dotted $grey
+    @extend .flipIn
+      
+    &:nth-of-type(1)
+      animation-delay: 0.5s
+    
+    &:nth-of-type(2)
+      animation-delay: 0.75s
+        
+    &:nth-of-type(3)
+      animation-delay: 1.0s
+    
+    &:last-of-type
+      padding-bottom: 0
+      
+    i
+      position: absolute
+      transform: translate( -6px , 0 )
+      margin-top: 16px
+      right: 0
+      
+      &:before , &:after
+        content: ""
+        @extend .transition
+        position: absolute
+        background-color: $red
+        width: 3px
+        height: 9px
+        
+      &:before
+        transform: translate( -2px , 0 ) rotate( 45deg )
+          
+      &:after
+        transform: translate( 2px , 0 ) rotate( -45deg )
+    
+    input[type=checkbox]
+      position: absolute
+      cursor: pointer
+      width: 100%
+      height: 100%
+      z-index: 1
+      opacity: 0
+      
+      &:checked
+        &~p
+          margin-top: 0
+          max-height: 0
+          opacity: 0
+          transform: translate( 0 , 50% )
+            
+        &~i
+          &:before
+            transform: translate( 2px , 0 ) rotate( 45deg )
+          
+          &:after
+            transform: translate( -2px , 0 ) rotate( -45deg )
+
+@keyframes flipdown
+  0%
+    opacity: 0
+    transform-origin: top center
+    transform: rotateX(-90deg)
+  5%
+    opacity: 1
+  80%
+    transform: rotateX(8deg)
+  83%
+    transform: rotateX(6deg)
+  92%
+    transform: rotateX(-3deg)
+  100%
+    transform-origin: top center
+    transform: rotateX(0deg) 
+    
